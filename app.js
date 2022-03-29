@@ -1,13 +1,12 @@
 //imports
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 // static files
 app.use(express.static('public'));
 app.use('/css', express.static(__dirname + 'public/css'));
 app.use('/img', express.static(__dirname + 'public/img'));
-app.use('/js', express.static(__dirname + 'public/js'));
 
 
 app.get('', (req, res) => {
