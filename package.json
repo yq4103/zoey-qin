@@ -20,7 +20,8 @@
   "homepage": "https://github.com/yq4103/zoey-qin#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "serve": "^13.0.2"
+    "serve": "^13.0.2",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
