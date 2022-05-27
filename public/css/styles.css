@@ -114,7 +114,8 @@ hr {
     0 0 0.5em 0 var(--turquoise);
 }
 
-.projects input {
+.projects button {
+  cursor: pointer;
   font-weight: bold;
   color: var(--turquoise);
   background-color: var(--indigo);
@@ -127,7 +128,7 @@ hr {
   transition: all 0.5s ease-in-out;
 }
 
-.projects input:hover {
+.projects button:hover {
   color: var(--indigo);
   background-color: var(--turquoise);
 }
