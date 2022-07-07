@@ -19,7 +19,6 @@
 }
 
 body {
-  min-width: 320px;
   margin: 0;
   padding: 0;
   color: var(--turquoise);
@@ -39,6 +38,8 @@ img {
 
 .content-wrap {
   width: 29.5em;
+  margin: 20px;
+  padding: 20px;
 }
 
 a{
@@ -106,8 +107,9 @@ hr {
 }
 
 .project-box section {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
+  min-width: 320px;
   background-image: linear-gradient(var(--indigo), var(--black));
   border: 5px solid var(--turquoise);
   box-shadow: 
@@ -205,6 +207,8 @@ footer ul {
   }
   
   .project-box section {
+    margin: 20px;
+    padding: 20px;
     flex: 1;
     min-width: 500px;
   }
