@@ -107,6 +107,7 @@ hr {
 .project-box section {
   margin: 20px;
   padding: 20px;
+  min-width: 240px;
   background-image: linear-gradient(var(--indigo), var(--black));
   border: 5px solid var(--turquoise);
   box-shadow: 
